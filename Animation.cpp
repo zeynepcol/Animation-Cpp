@@ -210,7 +210,6 @@ void ShowExplosion(int x, int y) {
 
     ShowMojoDies(x, y);
 
-    //PlaySound("explosion.wav", NULL, SND_SYNC);
 
     for (int i = 0; i < 6; i++) {
         ReadImage("white.bmp", Background);  
