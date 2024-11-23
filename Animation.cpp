@@ -243,7 +243,6 @@ void AnimateCharacterToMojo(ICBYTES characterRun[], int xStart, int yStart, int 
         y += dy;
     }
 
-    //PlaySound("attack.wav", NULL, SND_SYNC);
 
     for (int i = 0; i < 5; i++) { 
         ReadImage("white.bmp", Background);
