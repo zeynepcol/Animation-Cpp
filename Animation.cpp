@@ -77,7 +77,6 @@ void LoadAgentRun() {
         return;
     }
 
-
     int buttercupCoords[18][4] = {
         {11, 17, 31, 42}, {73, 17, 34, 42}, {133, 17, 34, 42}, {193, 16, 31, 43},
         {254, 15, 33, 44}, {315, 15, 34, 44}, {376, 14, 34, 45}, {435, 16, 35, 43},
@@ -209,7 +208,6 @@ void ShowMojoDies(int x, int y) {
 void ShowExplosion(int x, int y) {
 
     ShowMojoDies(x, y);
-
 
     for (int i = 0; i < 6; i++) {
         ReadImage("white.bmp", Background);  
